@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ayala00006715.trabajomatias">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Bienvenido"></activity>
+        <activity android:name=".pdfActivity"></activity>
+        <activity android:name=".Decibelios"></activity>
+        <activity android:name=".UsuarioNuevoActivity"></activity>
+        <activity android:name=".MenuCatalogos"></activity>
+        <activity android:name=".MenuCatalogo1"></activity>
+        <activity android:name=".MenuCatalogo2"></activity>
+        <activity android:name=".RecyclerViewCatalogo1"></activity>
+        <activity android:name=".RecyclerViewCatalago2"></activity>
+        <activity android:name=".pdf1Activity"></activity>
+        <activity android:name=".pdf2activity"></activity>
+        <activity android:name=".pdf3activity"></activity>
+        <activity android:name=".pdf4activity"></activity>
+
+
+    </application>
+
+</manifest>

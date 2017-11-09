@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuCatalogo1">
+
+    <Button
+
+        android:id="@+id/catalogo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="catalogo1"
+        android:text="Ver catalogo"/>
+
+
+
+
+    <EditText
+        android:hint="Nombre producto"
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:inputType="numberDecimal"
+        android:hint="precio de producto"
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="botimagen"
+        android:id="@+id/update"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="imagen"/>
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/imagen"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="16dp"
+        android:clickable="true" />
+
+    <Button
+        android:onClick="agregar"
+        android:id="@+id/agregarprueba"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="agregar"/>
+
+
+
+
+
+    <TextView
+        android:paddingTop="15dp"
+        android:textColor="@color/colorPrimary"
+        android:text="1. Para ver catalogo, presione el boton ver catalogo
+2.Si se quiere agregar un nuevo producto, sera necesario poner El nombre del producto, su precio y una imagen
+3.Todos los campos deben estar rellenados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
